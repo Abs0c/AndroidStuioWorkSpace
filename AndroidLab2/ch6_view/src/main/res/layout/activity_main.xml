@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_desc"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="qjfjrdl12@naver.com"
+        android:textColor="#CFCFCE"
+        android:layout_marginTop="10dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D4D4D3"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password_txt"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:gravity = "right|bottom"
+        android:layout_gravity="center_horizontal"
+        />
+    /*layout_weight="1"인 컴포넌트와 layout_weight="3"인 컴포넌트가
+    같은 레이아웃에 있을 경우, 여백을 1:3 비율로 나눠갖는데,
+    이것은 이용하기에 따라 컴포넌트의 크기를 % 단위로 지정한 것과 같은 효과를
+    가진다*/
+
+    /*
+    gravity는 해당 컴포넌트의 콘텐츠를 (ex : 문자열) 정렬,
+    layout_gravitiy는 해당 레이아웃에서 해당 컴포넌트의 위치를 정렬
+    근데 이럴거면 그냥 layout에서 android:gravity = "center" 같은 식으로
+    layout 단위에서 컴포넌트 정렬을 하는게 깔끔하다다
+   */
+</LinearLayout>

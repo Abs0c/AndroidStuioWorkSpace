@@ -1,0 +1,2 @@
+rootProject.name='YLP'
+include ':app'

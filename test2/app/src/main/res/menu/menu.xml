@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="공원"
+        android:id="@+id/parkMenuItem"/>
+    <item android:title="식당"
+        android:id="@+id/eatMenuItem"/>
+    <item android:title="카페"
+        android:id="@+id/cafeMenuItem"/>
+    <item android:title="병원"
+        android:id="@+id/hospitalMenuItem"/>
+</menu>

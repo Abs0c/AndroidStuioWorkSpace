@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/eatDinner"
+        android:title="오늘 저녁을 먹었습니다." />
+    <item
+        android:id="@+id/notDinner"
+        android:title="오늘 저녁을 안먹었습니다." />
+</menu>
