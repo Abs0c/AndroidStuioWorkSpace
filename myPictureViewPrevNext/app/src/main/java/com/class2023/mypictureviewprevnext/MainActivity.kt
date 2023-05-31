@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         title = "이미지 뷰어"
         ActivityCompat.requestPermissions(this, arrayOf(android.Manifest.permission.WRITE_EXTERNAL_STORAGE), Context.MODE_PRIVATE)
 
-        imageFiles = File(Environment.getExternalStorageDirectory().absolutePath + "/Pictures").listFiles()
+        imageFiles = File("./storage/emulated/0/Pictures").listFiles()
         imageFname = imageFiles!![0].toString()
         binding.myPictureView1.imagePath=imageFname
 
